@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  haskell-srv:
+    build: haskell-srv
+
+  db:
+    build: db
+    ports:
+      - 8086
